@@ -11,11 +11,11 @@ app = Flask(__name__)
 
 # MongoDB configuration
 # client = MongoClient('mongodb://localhost:27017/')
-client = MongoClient('mongodb+srv://gaja:gaja123@cluster0.jdoybcv.mongodb.net/gameproject')
+client = MongoClient('add_str_addres')
 db = client['pdf_data_new']
 
 # Mindee API configuration
-mindee_client = Client(api_key="83548d8bf4bd3a33b7d407f62c76d57b")
+mindee_client = Client(api_key="Add_API_Key")
 
 # Set up the uploads folder
 UPLOAD_FOLDER = 'uploads'
